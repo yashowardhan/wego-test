@@ -1,0 +1,34 @@
+.category-list {
+  width: max-content;
+  display: flex;
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+  justify-content: space-between;
+  border: 1px solid #ffd300;
+  border-radius: 10px;
+}
+
+.category-list li {
+  border-right: 1px solid #ffd300; /* Add a border on the right side */
+  padding: 15px; /* Add padding for better visibility */
+  text-align: center; /* Center-align the text */
+  display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  cursor: pointer;
+}
+
+.category-list li:first-child {
+  border-left: none;
+  border-radius: 10px 0 0 10px; /* Adjust the border radius for the left corners */
+}
+
+.category-list li:last-child {
+  border-right: none; /* Remove the border on the last category */
+  border-radius: 0 10px 10px 0; /* Adjust the border radius for the right corners */
+}
+
+.selected {
+  background-color: #ffd300;
+}

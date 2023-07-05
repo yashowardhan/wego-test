@@ -1,0 +1,15 @@
+.search {
+  text-align: left;
+}
+#searchInput {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+#searchInput::placeholder {
+  padding-left: 20px; /* Adjust the placeholder padding-right as needed */
+}
